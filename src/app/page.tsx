@@ -30,6 +30,7 @@ import { TeamSection } from "@/components/ExpertsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 
 import { ProjectsPage } from "@/components/ProjectsPage";
+import Link from "next/link";
 
 // import CategorySection from "@/components/CategorySection";
 
@@ -296,13 +297,13 @@ export function Nav() {
               {label}
             </a>
           ))}
-          <a
+          <Link
             key="6"
             href={`/projects`}
             className="hover:text-white transition-colors"
           >
             Projects
-          </a>
+          </Link>
         </nav>
 
         {/* Desktop CTA */}
@@ -337,13 +338,13 @@ export function Nav() {
                 {label}
               </a>
             ))}
-            <a
+            <Link
               key="6"
               href={`/projects`}
               className="hover:text-white transition-colors"
             >
               projects
-            </a>
+            </Link>
 
             {/* CTA for mobile */}
             <a

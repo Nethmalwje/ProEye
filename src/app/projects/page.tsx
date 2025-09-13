@@ -12,6 +12,7 @@ import {
   Facebook,
   Mail,
 } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export function ProjectNav() {
@@ -34,7 +35,7 @@ export function ProjectNav() {
     >
       <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <a href="/#home" className="font-semibold tracking-tight text-white">
+        <Link href="/#home" className="font-semibold tracking-tight text-white">
           <div className="flex">
             <img
               src="images/logo.png"
@@ -47,36 +48,36 @@ export function ProjectNav() {
               </span>
             </div> */}
           </div>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6 text-sm text-white/80 absolute left-1/2 transform -translate-x-1/2">
           {links.map(([label, id]) => (
-            <a
+            <Link
               key={id}
               href={`/#${id}`}
               className="hover:text-white transition-colors"
             >
               {label}
-            </a>
+            </Link>
           ))}
-          <a
+          <Link
             key="6"
             href={`/projects`}
             className="hover:text-white transition-colors"
           >
             Projects
-          </a>
+          </Link>
         </nav>
 
         {/* Desktop CTA */}
-        <a
+        <Link
           href="/#contact"
           className="hidden md:inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2 text-sm
                      text-white/90 hover:bg-white/10"
         >
           Get in touch <ChevronRight className="size-4" />
-        </a>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button
@@ -101,13 +102,13 @@ export function ProjectNav() {
                 {label}
               </a>
             ))}
-            <a
+            <Link
               key="6"
               href={`/projects`}
               className="hover:text-white transition-colors"
             >
               Projects
-            </a>
+            </Link>
             {/* CTA for mobile */}
             <a
               href="#contact"

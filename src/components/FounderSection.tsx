@@ -57,17 +57,17 @@ export function FounderSection() {
               across Sri Lanka.
             </p>
             <p className="text-gray-300 mb-4 text-sm  md:text-md  text-justify">
-              With hands-on experience at some of the country's most reputed
-              structural design firms, Anuruddha went on to earn his Chartered
-              status in 2022 — the same year he launched Proeye Consultants with
-              a bold mission: to redefine structural design through precision,
-              integrity, and forward-thinking engineering. Since its inception,
-              he has led the design and delivery of 350+ diverse projects,
-              earning the trust of clients through a deep commitment to quality,
-              safety, and sustainability. He is currently pursuing his M.Phil.
-              at the University of Moratuwa, specializing in lateral load
-              resisting systems for high-rise buildings, reinforcing his
-              dedication to advancing the field.
+              With hands-on experience at some of the country&apos;s most
+              reputed structural design firms, Anuruddha went on to earn his
+              Chartered status in 2022 — the same year he launched Proeye
+              Consultants with a bold mission: to redefine structural design
+              through precision, integrity, and forward-thinking engineering.
+              Since its inception, he has led the design and delivery of 350+
+              diverse projects, earning the trust of clients through a deep
+              commitment to quality, safety, and sustainability. He is currently
+              pursuing his M.Phil. at the University of Moratuwa, specializing
+              in lateral load resisting systems for high-rise buildings,
+              reinforcing his dedication to advancing the field.
             </p>
             <p className="text-gray-300 text-sm  md:text-md  text-justify">
               Anuruddha is a licensed designer for intermediate-rise buildings
