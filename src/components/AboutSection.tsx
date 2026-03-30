@@ -35,7 +35,7 @@ export function AboutSection() {
             />
             <div className="absolute -bottom-10 -left-10 bg-blue-900 p-8 rounded-lg shadow-xl md:ml-0 ml-8">
               <div className="text-5xl font-bold text-white">350+</div>
-              <div className="text-xl text-blue-300">PROJECTS</div>
+              <div className="text-xl text-blue-300">PROJECTSes</div>
             </div>
             <div className="absolute -top-8 -right-4 bg-white p-1 rounded-lg  md:ml-0 ml-8 shadow-2xl">
               <img
