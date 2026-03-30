@@ -22,7 +22,7 @@ export function CoreValuesSection() {
         "Our commitment to high standards ensures consistent quality and reliable performance.",
     },
     {
-      icon: <BriefcaseIcon className="text-blue-400" />,
+      icon: <BriefcaseIcon className="text-blue-900" />,
       title: "Innovation",
       description:
         "We apply forward-looking thinking and modern tools to deliver smarter, future-ready solutions.",
