@@ -48,6 +48,31 @@ export const metadata: Metadata = {
   description: "Structural excellence delivered with integrity.",
 };
 
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <html lang="en" className={poppins.variable}>
+//       <body className="min-h-screen bg-gradient-to-br from-gray-950 via-brand-blue to-black text-white antialiased">
+//         <head>
+//   ...
+//   {(process.env.NODE_ENV === "development" || process.env.VERCEL_ENV === "preview") && (
+//     // eslint-disable-next-line @next/next/no-sync-scripts
+//     <script
+//       data-recording-token="BvxUtLv9Uwz7XlWkwt1QvRBI8g994sTBM1jPvAq5"
+//       data-is-production-environment="false"
+//       src="https://snippet.meticulous.ai/v1/meticulous.js"
+//     />
+//   )}
+//   ...
+// </head>
+//         {children}
+//       </body>
+//     </html>
+//   );
+// }
 export default function RootLayout({
   children,
 }: {
@@ -55,19 +80,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        {(process.env.NODE_ENV === "development" ||
+          process.env.VERCEL_ENV === "preview") && (
+          // eslint-disable-next-line @next/next/no-sync-scripts
+          <script
+            data-recording-token="BvxUtLv9Uwz7XlWkwt1QvRBI8g994sTBM1jPvAq5"
+            data-is-production-environment="false"
+            src="https://snippet.meticulous.ai/v1/meticulous.js"
+          />
+        )}
+      </head>
       <body className="min-h-screen bg-gradient-to-br from-gray-950 via-brand-blue to-black text-white antialiased">
-        <head>
-  ...
-  {(process.env.NODE_ENV === "development" || process.env.VERCEL_ENV === "preview") && (
-    // eslint-disable-next-line @next/next/no-sync-scripts
-    <script
-      data-recording-token="BvxUtLv9Uwz7XlWkwt1QvRBI8g994sTBM1jPvAq5"
-      data-is-production-environment="false"
-      src="https://snippet.meticulous.ai/v1/meticulous.js"
-    />
-  )}
-  ...
-</head>
         {children}
       </body>
     </html>

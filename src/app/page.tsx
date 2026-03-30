@@ -244,7 +244,7 @@ function Card({ title, desc, href }: CardProps) {
           href={href}
           className="mt-4 inline-flex items-center gap-2 text-sm text-blue-300 hover:underline"
         >
-          Learn more <ChevronRight className="size-4" />
+          Learn more yes <ChevronRight className="size-4" />
         </a>
       )}
     </motion.div>
