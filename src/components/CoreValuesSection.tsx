@@ -28,13 +28,13 @@ export function CoreValuesSection() {
         "We apply forward-looking thinking and modern tools to deliver smarter, future-ready solutions.",
     },
     {
-      icon: <UserIcon className="text-blue-400" />,
+      icon: <UserIcon className="text-blue-900" />,
       title: "Precision",
       description:
         "Detail and accuracy form the core of our engineering processes—no shortcuts, no guesswork.",
     },
     {
-      icon: <ShieldIcon className="text-blue-400" />,
+      icon: <ShieldIcon className="text-blue-100" />,
       title: "Sustainability",
       description:
         "Our designs aim for long-term structural, environmental, and economic resilience.",
