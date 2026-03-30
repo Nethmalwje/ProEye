@@ -436,7 +436,7 @@ export default function ProeyeDarkModern() {
           <div className="mx-auto max-w-3xl lg:max-w-7xl px-4">
             <div className="grid md:grid-cols-2 gap-10">
               <div>
-                <h2 className="text-2xl font-bold text-amber-300">
+                <h2 className="text-2xl font-bold text-green-400">
                   Let’s work together
                 </h2>
                 <p className="mt-3 text-white/80 max-w-prose">
