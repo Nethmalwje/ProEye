@@ -40,7 +40,7 @@ export function HeroSection() {
           </h1> */}
           <h1
             className="mt-2 text-2xl sm:text-3xl md:text-5xl font-extrabold leading-snug
-                       text-white drop-shadow-md "
+                       text-red-600 drop-shadow-md "
           >
             PROEYE CONSULTANTS <br /> (PVT) LTD
           </h1>
