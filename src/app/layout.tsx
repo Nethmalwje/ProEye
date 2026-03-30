@@ -61,7 +61,7 @@ export default function RootLayout({
   {(process.env.NODE_ENV === "development" || process.env.VERCEL_ENV === "preview") && (
     // eslint-disable-next-line @next/next/no-sync-scripts
     <script
-      data-recording-token="oaIsDyKOBQgrBhtoKyyqZovaIduogW7geoUDC40D"
+      data-recording-token="BvxUtLv9Uwz7XlWkwt1QvRBI8g994sTBM1jPvAq5"
       data-is-production-environment="false"
       src="https://snippet.meticulous.ai/v1/meticulous.js"
     />
